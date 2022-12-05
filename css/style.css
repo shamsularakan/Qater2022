@@ -1,0 +1,48 @@
+
+:root{
+  --primary:#751A46;
+  --secondary:#FF004C;
+  --third:#FF4700;
+}
+body{
+  background-color: var(--primary);
+}
+.primary-bg{
+  background-color: var(--primary);
+}
+.secondary-bg{
+  background-color: var(--secondary);
+}
+.third-bg{
+  background-color: var(--third);
+}
+.primary-txt{
+  color: var(--primary);
+}
+.secondary-txt{
+  color: var(--secondary);
+}
+.third-txt{
+  color: var(--third);
+}
+/* start description page */
+.description{
+  height: 100vh;
+}
+.tamem{
+  width: 200px;
+  height: 200px;
+}
+.tamem>img{
+  
+  height: 250px;
+}
+/* end description page */
+p{
+  margin: 0 !important; 
+}
+.bar{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
